@@ -103,10 +103,42 @@ cad = str(flo)
 print("Longitud como cadena: ", cad)
 
 #numero par o impar
-num = int (input("Infresa un número: "))
+num = int (input("Ingrese un número: "))
 if (num %2 == 0): 
-    print("El númerp es par")
+    print("El número es par")
 else:
     print("El número es impar")
 
+#comprobar si el residuo de 7 entre 3 es igual a 2.7
+div = 7 % 3
+r = 2.7
+compar = div == r
+print("¿El residuo es igual a 2.7? ", compar)
 
+#comprobar si '10' es igual a 10
+j = '10'
+l = 10
+ad = type(j) == type(l)
+print("¿El tipo de '10' es igual al tipo de 10? ", ad)
+
+#comprobar si '9.8'es igual a 10
+f = int(9.8)
+c = 10
+run = type(f) == type(c)
+print("¿El tipo de 9.8 es igual al tipo de 10? ", run)
+
+#salario
+hrs= float(input("Ingrese las horas: "))
+tari= float(input("ingrese la tarifa por hora: "))
+print("Su salario es de: ", hrs*tari)
+
+#cuantos segundos vive una persona
+year = int(input("Ingrese los años que ha vivido: "))
+print("Los segundos que ha vivido son: ", year*31536000)
+
+#imprimir tabla
+print(1, 1, 1, 1, 1)
+print(2, 1, 2, 4, 8)
+print(3, 1, 3, 9, 27)
+print(4, 1, 4, 16, 64)
+print(5, 1, 5, 25, 125)
