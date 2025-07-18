@@ -26,7 +26,7 @@ print("El perímetro del rectángulo es: ",perimetro)
 #7
 rad = float(input("Ingrese el radio del círculo: "))
 pi = 3.14
-area_cir = pi*rad**2
+area_cir = pi*rad*rad
 circum = 2*pi*rad
 print("El área del círculo es: ",area_cir)
 print("La circunferencia del círculo es: ",circum)

@@ -38,3 +38,9 @@ print (type('Francia'))
 #3_2
 distancia= math.sqrt((10-2)**2+(8-3)**2) #DISTANCIA EUCLIDIANA ENTRE LOS PUNTOS (2,3) Y (10,8)
 print(distancia)
+
+
+
+
+
+
